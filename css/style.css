@@ -1,0 +1,29 @@
+@page {
+ margin: 0px;
+ padding: 0px;
+}
+#content{
+    top: -100px;
+
+}
+#header { 
+    position: fixed;
+    left: 0px;
+    top: -45px; 
+    right: 0px;
+    width: 100%;
+    height: 200px;
+    background-image: url('../images/header.png'); 
+    background-repeat: no-repeat;
+}
+#footer {
+    position: fixed; 
+    left: 0px; 
+    bottom: -180px; 
+    right: 0px; 
+    height: 150px; 
+    background-color: lightblue; 
+}
+#footer .page:after { 
+    content: counter(page, upper-roman); 
+}
